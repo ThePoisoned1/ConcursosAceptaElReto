@@ -1,5 +1,3 @@
-package AceptaElReto;
-
 import java.util.Scanner;
 
 public class AER471_BuscandoElPinchazo {
