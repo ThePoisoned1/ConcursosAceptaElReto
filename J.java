@@ -25,7 +25,6 @@ public class J {
         while (remainder != 0) {
             number_of_ones++;
             remainder = (remainder * 10 + 1) % n;
-            System.out.println("remainder = " + remainder);
         }
 
         System.out.println(number_of_ones);
