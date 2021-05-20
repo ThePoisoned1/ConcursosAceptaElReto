@@ -20,7 +20,7 @@ public class J {
         // https://stackoverflow.com/questions/31413626/how-to-calculate-smallest-multiple-formed-only-of-the-digit-1
         int n = sc.nextInt();
         int number_of_ones = 1;
-        int remainder = 1 % n;
+        long remainder = 1 % n;
         System.out.println("first = " + remainder);
         while (remainder != 0) {
             number_of_ones++;
